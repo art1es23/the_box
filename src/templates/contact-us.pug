@@ -1,0 +1,14 @@
+section.contact-us 
+    .container.contact-us-wrapper
+        form(action="" class="contact-us-form")
+            h2.contact-us-form__title.title What can us do for you?
+            p.contact-us-form__legend We are ready to work on a project of any complexity, whether it’s commercial or residential.
+            .input-fields-wrapper 
+                input(class="input" type="text" placeholder="Name *")
+                input(class="input" type="email" placeholder="Email *")
+                //- Select option -> 
+                input(class="input" type="text" placeholder="Reason for Contacting *")
+                input(class="input" type="text" placeholder="Phone")
+            textarea(placeholder="Message" id="contact-us__textarea" rows="4")
+            span.indicate-fields * indicates a required field
+            input(type="submit" class="btn contact-us-form__btn" value="Submit")
